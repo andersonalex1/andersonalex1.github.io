@@ -97,12 +97,12 @@
     <score-part id="P3">
       <part-name>Piano   (BB)</part-name>
       <score-instrument id="P3-I3">
-        <instrument-name>Bright Acoustic Piano</instrument-name>
+        <instrument-name>Acoustic Grand Piano</instrument-name>
       </score-instrument>
       <midi-instrument id="P3-I3">
         <midi-channel>3</midi-channel>
         <midi-bank>1</midi-bank>
-        <midi-program>2</midi-program>
+        <midi-program>1</midi-program>
         <volume>80</volume>
         <pan>-22</pan>
       </midi-instrument>

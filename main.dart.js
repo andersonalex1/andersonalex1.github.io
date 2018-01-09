@@ -14783,9 +14783,11 @@ a.fr.k(0,y,t)
 if(t===0)L.dt(a,b,c,y,t)
 else{a.fr.k(0,d,t)
 L.dt(a,b,c,d,t)}},
-dt:function(a,b,c,d,e){var z=J.f(d,e*(c.gmY()*b.gmY())*0.5)
-a.fr.k(0,z,0)
-a.c=J.f(a.b,z)}}},qJ:{"^":"b;I:a*,vz:b?,td:c?,e8:d<,vy:e?,uS:f?,nl:r?,v4:x?"},ry:{"^":"b;a,b,c,d,e,f,r,x,y,z,Q,ch,cx,cy,db,dx,dy,fr",
+dt:function(a,b,c,d,e){var z,y
+z=e*(c.gmY()*b.gmY())*0.5
+y=J.f(d,z>4?4:z)
+a.fr.k(0,y,0)
+a.c=J.f(a.b,y)}}},qJ:{"^":"b;I:a*,vz:b?,td:c?,e8:d<,vy:e?,uS:f?,nl:r?,v4:x?"},ry:{"^":"b;a,b,c,d,e,f,r,x,y,z,Q,ch,cx,cy,db,dx,dy,fr",
 eR:function(a,b,c){var z=0,y=P.aK(),x=this
 var $async$eR=P.aQ(function(d,e){if(d===1)return P.aN(e,y)
 while(true)switch(z){case 0:x.b=b
@@ -15328,63 +15330,62 @@ return y},
 rz:function(){var z=J.cZ(this.a)
 this.y=z
 z.connect(this.a.destination,0,0)},
-qB:[function(a){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l,k,j
+qB:[function(a){var z,y,x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h
 z=this.a.currentTime
 y=this.d
 if(y===-1){this.d=z
 y=z}if(typeof z!=="number")return z.u()
 if(typeof y!=="number")return H.c(y)
 x=z-y
-while(!0){y=this.Q
-if(!(y.length>0&&J.J(y[0].a,z)))break
-y=this.Q
-if(0>=y.length)return H.a(y,0)
-y[0].m0()
-C.a.aV(this.Q,0)}w=[]
+for(w=this.Q.length-1;w>=0;--w){y=this.Q
+if(w>=y.length)return H.a(y,w)
+v=y[w]
+if(J.J(v.a,z)){v.m0()
+C.a.aV(this.Q,w)}}u=[]
 y=x+1
-while(!0){v=this.c
-if(!(v.length>0&&J.a0(J.bH(v[0]),y)))break
-v=this.c
-w.push((v&&C.a).aV(v,0))}y=w.length
+while(!0){t=this.c
+if(!(t.length>0&&J.a0(J.bH(t[0]),y)))break
+t=this.c
+u.push((t&&C.a).aV(t,0))}y=u.length
 if(y===0){if(this.c.length===0){this.e.Y(0)
-this.f=P.bc(P.d8(0,0,0,J.bt(J.C(J.j(this.ch,x),1000)),0,0),new L.rE(this))}return}for(u=0;u<w.length;w.length===y||(0,H.l)(w),++u){t=w[u]
-v=J.p(t)
-if(J.A(J.f(v.gaC(t),t.gm4()),this.ch))this.ch=J.f(v.gaC(t),t.gm4())
-if(t.glv()===0)continue
-s=J.f(v.gaC(t),this.d)
-r=J.j(v.gbm(t),v.gaC(t))
-q=this.a.createBufferSource()
-q.buffer=t.giz()
-p=J.cZ(this.a)
-for(o=t.gnj(),o=o.gaY(o),o=o.gaj(o),n=J.R(s);o.O();){m=o.ga2()
-p.gain.linearRampToValueAtTime(t.gnj().i(0,m),n.j(s,m))}q.connect(p,0,0)
-l=J.cZ(this.a)
-p.connect(l,0,0)
-k=this.a.createStereoPanner()
-k.pan.value=v.ge1(t)
-l.connect(k,0,0)
-if(t.gmz()!=null){j=this.a.createBiquadFilter()
-j.type="lowpass"
-j.frequency.value=t.gmz()
-k.connect(j,0,0)
-j.connect(this.y,0,0)}else{k.connect(this.y,0,0)
-j=null}q.playbackRate.value=t.gmO()
-if(v.gdZ(t)===!0){v=t.gmy()
-o=q.buffer.sampleRate
-if(typeof o!=="number")return H.c(o)
-q.loopStart=v/o
-o=t.gmx()
-v=q.buffer.sampleRate
-if(typeof v!=="number")return H.c(v)
-q.loopEnd=o/v
-v=q.loopEnd
-if(typeof v!=="number")return v.C()
-if(typeof r!=="number")return H.c(r)
-q.loop=v<r}C.t.jQ(q,s)
-v=n.j(s,r)
-if(!!q.stop)q.stop(v)
-else q.noteOff(v)
-this.Q.push(new L.jW(n.j(s,r),q,p,l,k,j))}},"$1","gqA",2,0,48]},rF:{"^":"m:1;a,b",
+this.f=P.bc(P.d8(0,0,0,J.bt(J.C(J.j(this.ch,x),1000)),0,0),new L.rE(this))}return}for(s=0;s<u.length;u.length===y||(0,H.l)(u),++s){r=u[s]
+t=J.p(r)
+if(J.A(J.f(t.gaC(r),r.gm4()),this.ch))this.ch=J.f(t.gaC(r),r.gm4())
+if(r.glv()===0)continue
+q=J.f(t.gaC(r),this.d)
+p=J.j(t.gbm(r),t.gaC(r))
+o=this.a.createBufferSource()
+o.buffer=r.giz()
+n=J.cZ(this.a)
+for(m=r.gnj(),m=m.gaY(m),m=m.gaj(m),l=J.R(q);m.O();){k=m.ga2()
+n.gain.linearRampToValueAtTime(r.gnj().i(0,k),l.j(q,k))}o.connect(n,0,0)
+j=J.cZ(this.a)
+n.connect(j,0,0)
+i=this.a.createStereoPanner()
+i.pan.value=t.ge1(r)
+j.connect(i,0,0)
+if(r.gmz()!=null){h=this.a.createBiquadFilter()
+h.type="lowpass"
+h.frequency.value=r.gmz()
+i.connect(h,0,0)
+h.connect(this.y,0,0)}else{i.connect(this.y,0,0)
+h=null}o.playbackRate.value=r.gmO()
+if(t.gdZ(r)===!0){t=r.gmy()
+m=o.buffer.sampleRate
+if(typeof m!=="number")return H.c(m)
+o.loopStart=t/m
+m=r.gmx()
+t=o.buffer.sampleRate
+if(typeof t!=="number")return H.c(t)
+o.loopEnd=m/t
+t=o.loopEnd
+if(typeof t!=="number")return t.C()
+if(typeof p!=="number")return H.c(p)
+o.loop=t<p}C.t.jQ(o,q)
+t=l.j(q,p)
+if(!!o.stop)o.stop(t)
+else o.noteOff(t)
+this.Q.push(new L.jW(l.j(q,p),o,n,j,i,h))}},"$1","gqA",2,0,48]},rF:{"^":"m:1;a,b",
 $0:function(){var z,y,x,w
 for(z=this.a,y=z.a,x=y.length,w=0;w<y.length;y.length===x||(0,H.l)(y),++w)y[w].m0()
 z.a=null
