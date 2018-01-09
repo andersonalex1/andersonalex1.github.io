@@ -1,0 +1,8 @@
+<p class="heading">Holding the recorder:</p>
+<textformat leading="0"/>
+<img src="graphics/tutorials/correctFingerPositions.png" width="250" height="320" hspace="20" />
+<textformat leading="0"/>
+<li>Left hand on top.</li>
+<li>Use the pads of your fingers, not the tips.</li>
+<img src="graphics/tutorials/badFingers.png" width="454" height="250" hspace="20" />
+<br/>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<songs>
+	<!--<song id="0" title="Air Exercise 1" path="songs/airExercise1.xml" locked="true" instructions="true" audio="true" overlay="true" allowTempoChange="false" metronome="true" />
+	<song id="1" title="Tonguing Exercise 1" path="songs/tonguingExercise1.xml" locked="true" instructions="true" audio="true" overlay="false" allowTempoChange="false" metronome="false" />
+	<song id="2" title="Finger Positions" path="songs/fingerPositions.xml" locked="true" instructions="true" overlay="true" metronome="true" />
+	<song id="3" title="Quarter Notes and Half Notes" path="songs/quarterAndHalfNotes.xml" instructions="true" overlay="true" metronome="true" />-->
+	<song id="4" title="Hot Cross Buns" path="songs/hotCrossBuns.xml"/>
+	<song id="5" title="Gently Sleep" path="songs/gentlySleep.xml"/>
+	<song id="6" title="Merrily We Roll Along" path="songs/merrilyWeRollAlong.xml"/>
+	<song id="7" title="It's Raining" path="songs/itsRaining.xml"/>
+	<song id="8" title="Old MacDonald Had a Farm" path="songs/oldMacdonald.xml"/>
+	<song id="9" title="When The Saints Go Marching In" path="songs/whenTheSaintsGoMarchingIn.xml"/>
+	<song id="10" title="Twinkle, Twinkle Little Star" path="songs/twinkleTwinkleLittleStar.xml"/>
+	<song id="11" title="Amazing Grace" path="songs/amazingGrace.xml"/>
+	<song id="12" title="Ode To Joy" path="songs/odeToJoy.xml"/>
+	<song id="13" title="Aura Lee" path="songs/auraLee.xml" locked="false"/>
+	<song id="14" title="Camptown Races" path="songs/camptownRaces.xml" locked="false"/>
+	<song id="15" title="Bingo" path="songs/bingo.xml" locked="false"/>
+	<song id="16" title="Oh My Darling Clementine" path="songs/ohMyDarlingClementine.xml" locked="false"/>
+	<song id="17" title="Au Clair de la Lune" path="songs/auClairDeLaLune.xml" locked="false"/>
+	<song id="18" title="Abide With Me" path="songs/abideWithMe.xml" locked="false"/>
+	<song id="19" title="Erie Canal" path="songs/erieCanal.xml" locked="false"/>
+	<song id="20" title="A-Tisket, A-Tasket" path="songs/aTisketATasket.xml" locked="false"/>
+	<song id="21" title="Carnival of Venice" path="songs/carnivalOfVenice.xml" locked="false"/>
+	<song id="22" title="A Mighty Fortress is our God" path="songs/aMightyFortressIsOurGod.xml" locked="false"/>
+	<song id="23" title="Botany Bay" path="songs/botanyBay.xml" locked="false"/>
+	<song id="24" title="Barbara Allen" path="songs/barbaraAllen.xml" locked="false"/>
+	<song id="25" title="Jolly Old St. Nicholas" path="songs/jollyOldStNicholas.xml" locked="false"/>
+	<song id="26" title="All Through the Night" path="songs/allThroughTheNight.xml" locked="false"/>
+	<song id="27" title="Go Tell Aunt Rhodie" path="songs/goTellAuntRhodie.xml" locked="false"/>
+	<song id="28" title="Good King Wenceslas" path="songs/goodKingWenceslas.xml" locked="false"/>
+	<song id="29" title="Skip to My Lou" path="songs/skipToMyLou.xml" locked="false"/>
+	<song id="30" title="Jingle Bells" path="songs/jingleBells.xml" locked="false"/>
+	<song id="31" title="Alouette" path="songs/alouette.xml" locked="false"/>
+	<song id="32" title="Frere Jacques" path="songs/frereJacques.xml" locked="false"/>
+	<song id="33" title="Down by the Station" path="songs/downByTheStation.xml" locked="false"/>
+	<song id="34" title="Kumbaya" path="songs/kumBaYa.xml" locked="false"/>
+	<song id="35" title="London Bridge" path="songs/londonBridge.xml" locked="false"/>
+	<song id="36" title="Oh Susanna" path="songs/ohSusanna.xml" locked="false"/>
+	<song id="37" title="Michael Row the Boat Ashore" path="songs/michaelRowTheBoatAshore.xml" locked="false"/>
+	<song id="38" title="William Tell" path="songs/williamTell.xml" locked="false"/>
+	<song id="39" title="Hey, Ho, Nobody Home" path="songs/heyHoNobodyHome.xml" locked="false"/>
+	<song id="40" title="Christians Awake" path="songs/christiansAwake.xml" locked="false"/>
+	<song id="41" title="Long, Long Ago" path="songs/longLongAgo.xml" locked="false"/>
+	<song id="42" title="My Bonnie Lies Over the Ocean" path="songs/myBonnieLiesOverTheOcean.xml" locked="false"/>
+	<song id="43" title="Annie Laurie" path="songs/annieLaurie.xml" locked="false"/>
+	<song id="44" title="America the Beautiful" path="songs/americaTheBeautiful.xml" locked="false"/>
+	<song id="45" title="Battle Hymn of the Republic" path="songs/battleHymnOfTheRepublic.xml" locked="false"/>
+	<song id="46" title="Mary Had a Little Lamb" path="songs/maryHadALittleLamb.xml" locked="false"/>
+	<song id="47" title="Crusaders Hymn" path="songs/crusadersHymn.xml" locked="false"/>
+	<song id="48" title="Song of the Volga Boatmen" path="songs/songOfTheVolgaBoatmen.xml" locked="false"/>
+	<song id="49" title="Yankee Doodle" path="songs/yankeeDoodle.xml" locked="false"/>
+	<song id="50" title="American Patrol" path="songs/americanPatrol.xml" locked="false"/>
+	<song id="51" title="Polly Wolly Doodle" path="songs/pollyWollyDoodle.xml" locked="false"/>
+	<song id="52" title="My Dreydll" path="songs/myDreydll.xml" locked="false"/>
+	<song id="53" title="Simple Gifts" path="songs/simpleGifts.xml" locked="false"/>	
+</songs>

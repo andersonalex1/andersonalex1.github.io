@@ -1,0 +1,4 @@
+<p class="heading">Counting Quarter Notes and Half Notes</p>
+<li>Hold half notes for 2 full beats.</li>
+<li>Hold quarter notes for 1 full beat.</li>
+<li>Rests are silent but are counted just like notes.</li>

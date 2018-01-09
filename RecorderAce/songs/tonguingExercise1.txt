@@ -1,0 +1,6 @@
+<p class="heading">Tongue the notes, don't "huff and puff."</p>
+<li>Start each note with your tongue by whispering the word "too." "Too Too Too Too"</li>
+<li>Touch the tongue to the top of your mouth behind your teeth.</li>
+<li>Your tongue should not touch the recorder.</li>
+<img src="graphics/tutorials/mouthPosition.png" width="208" height="192" hspace="20" />
+<li>The recorder stays in front of your teeth, and only the tip goes in your mouth.</li>

@@ -1,0 +1,19 @@
+#instructions {
+	margin-bottom: 10px;
+	width: 1024px;
+	margin: 0 auto 10px auto;
+}
+#playerDiv {
+	width: 1024px;
+	height: 768px;
+	margin: 0 auto 100px auto;
+	/*display: inline;
+	float: left;*/
+}
+ a {
+	color: #AAF;
+}
+#feedbackDiv {
+	width: 1024px;
+	margin: 0 auto;
+}

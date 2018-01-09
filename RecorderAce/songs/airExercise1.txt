@@ -1,0 +1,4 @@
+<p class="heading">Play Softly!</p>
+<li>Think of whispering in someone's ear.</li>
+<li>Use just enough air to hold this note steady.</li>
+<li>If you overblow, you won't be able to hold the whole note!</li>
